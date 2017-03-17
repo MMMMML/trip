@@ -1,0 +1,11 @@
+@charset "utf-8";
+.jvectormap-label {
+    position: absolute;
+    display: none;
+    border: solid 1px #CDCDCD;
+    -moz-border-radius: 3px;
+    background: #242626;
+    color: white;
+    font-size: smaller;
+    padding: 3px;
+}

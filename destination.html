@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>一路有你旅游网 有你才精彩 </title>
+		<meta name="keywords" content="旅游，旅游网，旅游攻略，目的地推荐" />
+		<meta name="author" content="任拓" />
+		<link rel="shortcut icon" href="img/smalllogo.jpg" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/new_file.css" />
+		<link rel="stylesheet" type="text/css" href="css/zhedie.css"/>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.vector-map.css" />
+		
+	</head>
+
+	<body style="background: black;">
+		<!--地图部分开始-->
+		<div id="container" style=" padding-top: 10px; padding-left: 10px;
+        background: black; width: 100%; height: 650px;">
+			<!--地图上图片开始-->
+			<div class="anhui">
+				<img src="img/anhui.png">
+				<p></p>
+			</div>
+			<div class="fujian">
+				<img src="img/fujian.png">
+				<p></p>
+			</div>
+			<div class="shannxi">
+				<img src="img/shannxi.png">
+				<p></p>
+			</div>
+			<div class="neimenggu">
+				<img src="img/neimenggu.png">
+				<p></p>
+			</div>
+			<div class="qinghai">
+				<img src="img/qinghai.png">
+				<p></p>
+			</div>
+			<div class="xinjiang">
+				<img src="img/xinjiang.png">
+				<p></p>
+			</div>
+			<div class="shanghai">
+				<img src="img/shanghai.png">
+				<p></p>
+			</div>
+			<div class="sichuan">
+				<img src="img/sichuan.png">
+				<p></p>
+			</div>
+			<div class="xizang">
+				<img src="img/xizang.png">
+				<p></p>
+			</div>
+			<div class="jilin">
+				<img src="img/jilin.png">
+				<p></p>
+			</div>
+			<div class="guangxi">
+				<img src="img/guangxi.png">
+				<p></p>
+			</div>
+			<!--地图上图片结束-->
+		</div>
+		<!--地图部分结束-->
+		<!--头部开始-->
+		<div id="header" class="ding">
+			<a class="logo" href="index.html"><img src="img/logo.jpg" /> </a>
+			<ul class="nav">
+				<li>
+					<strong>
+				<a href="#" target="_blank">目的地</a>
+				<a class="nav-color" href="#" target="_blank">目的地</a>
+				</strong>
+				</li>
+				<li>
+					<strong>
+				<a href="#" target="_blank">发现</a>
+				<a  class="nav-color" href="#" target="_blank">发现</a>
+			</strong>
+				</li>
+				<li>
+					<strong>
+				<a href="#" target="_blank">大咖</a>
+				<a  class="nav-color" href="#" target="_blank">大咖</a>
+				</strong>
+				</li>
+				<li>
+					<strong>
+				<a href="#" target="_blank">自驾</a>
+				<a  class="nav-color" href="#" target="_blank">自驾</a>
+				</strong>
+				</li>
+				<li>
+					<strong>
+				<a href="#" target="_blank">预定</a>
+				<a  class="nav-color" href="#" target="_blank">预定</a>
+				</strong>
+				</li>
+			</ul>
+			<form action="#">
+				<input type="text" placeholder="风花雪月的浪漫之城" />
+				<input type="sunmit" class="submit" value="" />
+			</form>
+			<div class="nav-right">
+				<a href="#" class="qq"> </a>
+				<a href="#" class="weibo"></a>
+				<a href="register.html" target="_blank" class="zhuce">注册</a>
+				<a href="#" class="denglu">登录</a>
+			</div>
+		</div>
+		<!--登录部分开始-->
+		<div class="cover">
+			<div class="in">
+				<a id="login_v4close" href="javascript:void(0);" class="cls"></a>
+				<div class="login">
+					<ul class="third">
+						<li class="i2">
+							<a href="#"></a>
+						</li>
+						<li class="i3">
+							<a href="#"></a>
+						</li>
+						<li class="i4">
+							<a href="#"></a>
+						</li>
+						<li class="i5">
+							<a href="#"></a>
+						</li>
+						<li class="i6">
+							<a href="#"></a>
+						</li>
+						<li class="i7">
+							<a href="#"></a>
+						</li>
+					</ul>
+					<p class="td-btn">
+						<a href="#" class="o1" style="display: inline-block;">更多</a>
+						<a href="#" class="o2" style="display: none;">返回</a>
+					</p>
+					<div class="lg-btm" style="display: block;">
+						<p class="ps" id="login_v4errmsg"></p>
+						<p class="ty">
+							<input id="login_v4username" class="txt tl" placeholder="您的邮箱/手机号" value="" type="text">
+						</p>
+						<p class="ty">
+							<input id="login_v4password" class="txt tl" placeholder="您的密码" value="" type="password">
+						</p>
+						<p class="tool">
+						<label class=" on " id="login_v4autologin ">自动登录</label>
+						<a href="# ">忘记密码？</a>
+						</p>
+						<p class="sub ">
+							<input value="立即登录 " type="submit " id="login_v4login ">
+						</p>
+						<p class="tip ">
+							还没有账号？
+							<a id="gotoreglink " href="register.html " target="_blank ">点击这里注册</a>
+						</p>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!--登录部分结束-->
+		<!--头部结束-->
+		<!--侧边导航栏开始-->
+		<div class="sidebar ">
+			<ul>
+				<li class="item item1 ">
+					<h5>自然天赋</h5>
+					<p>
+						<a href="# ">田园</a>
+						<a href="# ">湖泊</a>
+						<a href="# ">花卉</a>
+						<a href="# ">海滩海岛</a>
+					</p>
+				</li>
+				<li class="item item2 ">
+					<h5>魅力人文</h5>
+					<p>
+						<a href="# ">古墓</a>
+						<a href="# ">园林</a>
+						<a href="# ">城堡</a>
+						<a href="# ">古城古镇</a>
+					</p>
+				</li>
+				<li class="item item3 ">
+					<h5>运动撒野</h5>
+					<p>
+						<a href="# ">蹦极</a>
+						<a href="# ">攀岩</a>
+						<a href="# ">骑行</a>
+						<a href="# ">潜水</a>
+					</p>
+				</li>
+				<li class="item item4 ">
+					<h5>休闲体验</h5>
+					<p>
+						<a href="# ">购物</a>
+						<a href="# ">夜市</a>
+						<a href="# ">观鸟</a>
+						<a href="# ">邮轮</a>
+					</p>
+				</li>
+				<li class="item item5 ">
+					<h5>因人而异</h5>
+					<p>
+						<a href="# ">艳遇</a>
+						<a href="# ">吃货</a>
+						<a href="# ">亲子</a>
+						<a href="# ">摄影咖</a>
+					</p>
+				</li>
+				<li class="item item6 ">
+					<h5>假日狂欢</h5>
+				</li>
+				<li class="item item7 ">
+					<h5>传奇之旅</h5>
+				</li>
+			</ul>
+		</div>
+		<div class="barshow ">
+			<ul>
+				<li>
+				<dl>
+						<dt><a href="# ">山</a></dt>
+						<dd><a href="# ">泰山</a></dd>
+						<dd><a href="# ">黄山</a></dd>
+						<dd><a href="# ">普陀山</a></dd>
+						<dd><a href="# ">峨眉山</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">雪山</a></dt>
+						<dd><a href="# ">玉龙雪山</a></dd>
+						<dd><a href="# ">梅里雪山</a></dd>
+						<dd><a href="# ">珠穆朗玛峰</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">火山</a></dt>
+						<dd><a href="# ">五大连池</a></dd>
+						<dd><a href="# ">腾冲</a></dd>
+						<dd><a href="# ">富士山</a></dd>
+						<dd><a href="# ">天山天池</a></dd>
+					</dl>
+					<dl class="marginTop ">
+						<dt><a href="# ">海滩海岛</a></dt>
+						<dd><a href="# ">巴厘岛</a></dd>
+						<dd><a href="# ">大溪地</a></dd>
+						<dd><a href="# ">夏威夷</a></dd>
+						<dd><a href="# ">毛里求斯</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">湖泊</a></dt>
+						<dd><a href="# ">千岛湖</a></dd>
+						<dd><a href="# ">青海湖</a></dd>
+						<dd><a href="# ">西湖</a></dd>
+						<dd><a href="# ">泸沽湖</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">江河</a></dt>
+						<dd><a href="# ">黄河</a></dd>
+						<dd><a href="# ">漓江</a></dd>
+						<dd><a href="# ">恒河</a></dd>
+						<dd><a href="# ">湄公河</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">瀑布</a></dt>
+						<dd><a href="# ">壶口瀑布</a></dd>
+						<dd><a href="# ">黄果树瀑布</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">湿地</a></dt>
+						<dd><a href="# ">若尔盖</a></dd>
+						<dd><a href="# ">红海滩</a></dd>
+						<dd><a href="# ">西溪湿地</a></dd>
+					</dl>
+						<dl class="marginTop ">
+						<dt><a href="# ">田园</a></dt>
+						<dd><a href="# ">阳朔</a></dd>
+						<dd><a href="# ">宏村</a></dd>
+						<dd><a href="# ">婺源</a></dd>
+						<dd><a href="# ">稻城亚丁</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">森林</a></dt>
+						<dd><a href="# ">张家界森林公园</a></dd>
+						<dd><a href="# ">西双版纳</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">草原</a></dt>
+						<dd><a href="# ">呼伦贝尔大草原</a></dd>
+						<dd><a href="# ">科尔沁草原</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">沙漠</a></dt>
+						<dd><a href="# ">塔克拉玛干</a></dd>
+						<dd><a href="# ">沙坡头</a></dd>
+						<dd><a href="# ">月牙泉</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">峡谷</a></dt>
+						<dd><a href="# ">青龙峡</a></dd>
+						<dd><a href="# ">虎跳峡</a></dd>
+						<dd><a href="# ">天坑地缝</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">地质奇观</a></dt>
+						<dd><a href="# ">丹霞山</a></dd>
+						<dd><a href="# ">死海</a></dd>
+						<dd><a href="# ">织金洞</a></dd>
+						<dd><a href="# ">石林</a></dd>
+					</dl>
+					<dl class="marginTop ">
+						<dt><a href="# ">植物园</a></dt>
+						<dd><a href="# ">上海植物</a></dd>
+						<dd><a href="# ">华南植物园</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">动物</a></dt>
+						<dd><a href="# ">北京动物园</a></dd>
+						<dd><a href="# ">热带野生动植物园</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">花卉</a></dt>
+						<dd><a href="# ">婺源</a></dd>
+						<dd><a href="# ">香格里拉</a></dd>
+						<dd><a href="# ">荷兰</a></dd>
+						<dd><a href="# ">普罗旺斯</a></dd>
+					</dl>
+				</li>
+				<li>
+						<dl>
+						<dt><a href="# ">古城古镇</a></dt>
+						<dd><a href="# ">丽江古城</a></dd>
+						<dd><a href="# ">古城平遥</a></dd>
+						<dd><a href="# ">凤凰古城</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">水乡</a></dt>
+						<dd><a href="# ">周庄</a></dd>
+						<dd><a href="# ">西塘</a></dd>
+						<dd><a href="# ">同里古镇</a></dd>
+						<dd><a href="# ">南浔古镇</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">乡村</a></dt>
+						<dd><a href="# ">宏村</a></dd>
+						<dd><a href="# ">民权</a></dd>
+						<dd><a href="# ">图瓦村</a></dd>
+						<dd><a href="# ">连南三排瑶寨</a></dd>
+					</dl>
+					<dl class="marginTop ">
+						<dt><a href="# ">皇宫</a></dt>
+						<dd><a href="# ">故宫</a></dd>
+						<dd><a href="# ">克里姆林宫</a></dd>
+						<dd><a href="# ">白宫</a></dd>
+						<dd><a href="# ">大皇宫</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">城堡</a></dt>
+						<dd><a href="# ">新天鹅堡</a></dd>
+						<dd><a href="# ">英格兰</a></dd>
+						<dd><a href="# ">罗马尼亚</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">园林</a></dt>
+						<dd><a href="# ">颐和园</a></dd>
+						<dd><a href="# ">拙政园</a></dd>
+						<dd><a href="# ">豫园</a></dd>
+						<dd><a href="# ">避暑山庄</a></dd>
+					</dl>
+					<dl class="marginTop ">
+						<dt><a href="# ">风俗民情</a></dt>
+						<dd><a href="# ">甘南葡萄沟</a></dd>
+						<dd><a href="# ">泸沽湖</a></dd>
+						<dd><a href="# ">凤凰古城</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">艺术园区</a></dt>
+						<dd><a href="# ">798艺术区</a></dd>
+						<dd><a href="# ">伦敦南岸</a></dd>
+						<dd><a href="# ">米兰</a></dd>
+					</dl>
+						<dl class="marginTop ">
+						<dt><a href="# ">博物馆</a></dt>
+						<dd><a href="# ">故宫</a></dd>
+						<dd><a href="# ">卢浮宫</a></dd>
+						<dd><a href="# ">大英博物馆</a></dd>
+						<dd><a href="# ">冬宫</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">纪念馆</a></dt>
+						<dd><a href="# ">南京大屠杀纪念馆</a></dd>
+						<dd><a href="# ">西抗日战争纪念馆</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">名校</a></dt>
+						<dd><a href="# ">清华大学</a></dd>
+						<dd><a href="# ">厦门大学</a></dd>
+						<dd><a href="# ">武汉大学</a></dd>
+					</dl>
+					<dl class="marginTop ">
+						<dt><a href="# ">石窟</a></dt>
+						<dd><a href="# ">莫高窟</a></dd>
+						<dd><a href="# ">龙门石窟</a></dd>
+						<dd><a href="# ">大足石刻</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">古墓</a></dt>
+						<dd><a href="# ">秦始皇陵</a></dd>
+						<dd><a href="# ">马王堆</a></dd>
+						<dd><a href="# ">泰姬陵</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">灾难遗迹</a></dt>
+						<dd><a href="# ">庞贝古城</a></dd>
+						<dd><a href="# ">广岛原爆馆</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">著名工程</a></dt>
+						<dd><a href="# ">上都江堰</a></dd>
+						<dd><a href="# ">京杭大运城</a></dd>
+						<dd><a href="# ">三峡</a></dd>
+						<dd><a href="# ">坎儿井</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">时代地标</a></dt>
+						<dd><a href="# ">鸟巢</a></dd>
+						<dd><a href="# ">自由女神像</a></dd>
+						<dd><a href="# ">比萨斜塔</a></dd>
+					</dl>
+					
+				</li>
+				<li>
+					<dl>
+						<dt><a href="# ">垂钓</a></dt>
+						<dd><a href="# ">日照</a></dd>
+						<dd><a href="# ">黄骅</a></dd>
+						<dd><a href="# ">大连</a></dd>
+						<dd><a href="# ">止锚湾</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">狩猎克</a></dt>
+						<dd><a href="# ">尖峰岭</a></dd>
+						<dd><a href="# ">青海湖</a></dd>
+						<dd><a href="# ">鲁格国家公园</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">高尔夫</a></dt>
+						<dd><a href="# ">加州</a></dd>
+						<dd><a href="# ">佛罗里达</a></dd>
+						<dd><a href="# ">夏威夷</a></dd>
+						<dd><a href="# ">西班牙</a></dd>
+					</dl>
+					<dl class="marginTop ">
+						<dt><a href="# ">徒步</a></dt>
+						<dd><a href="# ">稻城亚丁</a></dd>
+						<dd><a href="# ">墨脱</a></dd>
+						<dd><a href="# ">哈纳斯</a></dd>
+						<dd><a href="# ">四姑娘山</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">骑行</a></dt>
+						<dd><a href="# ">青海湖</a></dd>
+						<dd><a href="# ">海南</a></dd>
+						<dd><a href="# ">洱海</a></dd>
+						<dd><a href="# ">台湾</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">骑马</a></dt>
+						<dd><a href="# ">尖峰岭</a></dd>
+						<dd><a href="# ">青海湖</a></dd>
+						<dd><a href="# ">克鲁格国家公园</a></dd>
+					</dl>
+					<dl class="marginTop ">
+						<dt><a href="# ">登山</a></dt>
+						<dd><a href="# ">泰山</a></dd>
+						<dd><a href="# ">黄山</a></dd>
+						<dd><a href="# ">玉龙雪山</a></dd>
+						<dd><a href="# ">珠穆朗玛峰</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">滑雪</a></dt>
+						<dd><a href="# ">7万达长白山</a></dd>
+						<dd><a href="# ">亚布力</a></dd>
+						<dd><a href="# ">崇礼</a></dd>
+						<dd><a href="# ">惠斯勒</a></dd>
+					</dl>
+						<dl class="marginTop ">
+						<dt><a href="# ">攀岩</a></dt>
+						<dd><a href="# ">甲米</a></dd>
+						<dd><a href="# ">怀俄明</a></dd>
+						<dd><a href="# ">阿尔卑斯山京</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">漂流</a></dt>
+						<dd><a href="# ">猛洞河</a></dd>
+						<dd><a href="# ">楠溪江</a></dd>
+						<dd><a href="# ">万泉河</a></dd>
+						<dd><a href="# ">笔架山</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">潜水</a></dt>
+						<dd><a href="# ">沙巴</a></dd>
+						<dd><a href="# ">大蓝洞</a></dd>
+						<dd><a href="# ">夏威夷</a></dd>
+						<dd><a href="# ">马尔代夫</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt><a href="# ">夜市</a></dt>
+						<dd><a href="# ">尖峰岭</a></dd>
+						<dd><a href="# ">克鲁格国家公园</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">购物</a></dt>
+						<dd><a href="# ">迪拜</a></dd>
+						<dd><a href="# ">东京</a></dd>
+						<dd><a href="# ">曼谷</a></dd>
+						<dd><a href="# ">香港</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">泡吧</a></dt>
+						<dd><a href="# ">尖峰岭</a></dd>
+						<dd><a href="# ">青海湖</a></dd>
+						<dd><a href="# ">克鲁格国家公园</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">游乐场</a></dt>
+						<dd><a href="# ">欢乐谷</a></dd>
+						<dd><a href="# ">首尔</a></dd>
+						<dd><a href="# ">加州</a></dd>
+						<dd><a href="# ">西班牙</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">赌场</a></dt>
+						<dd><a href="# ">威尼斯人</a></dd>
+						<dd><a href="# ">拉斯维加斯</a></dd>
+						<dd><a href="# ">太阳城</a></dd>
+					</dl>
+					<dl class="marginTop ">
+						<dt><a href="# ">踏青</a></dt>
+						<dd><a href="# ">婺源</a></dd>
+						<dd><a href="# ">阳朔</a></dd>
+						<dd><a href="# ">昆明</a></dd>
+						<dd><a href="# ">苏州房山</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">祈福</a></dt>
+						<dd><a href="# ">九华山</a></dd>
+						<dd><a href="# ">无锡灵山</a></dd>
+						<dd><a href="# ">普陀山</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">观鸟</a></dt>
+						<dd><a href="# ">尖峰岭</a></dd>
+						<dd><a href="# ">青海湖</a></dd>
+						<dd><a href="# ">克鲁格国家公园</a></dd>
+					</dl>
+						<dl class="marginTop ">
+						<dt><a href="# ">温泉</a></dt>
+						<dd><a href="# ">羊八井</a></dd>
+						<dd><a href="# ">腾冲</a></dd>
+						<dd><a href="# ">热海棉</a></dd>
+						<dd><a href="# ">花堡冰岛</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">避暑</a></dt>
+						<dd><a href="# ">长白山</a></dd>
+						<dd><a href="# ">避暑山庄</a></dd>
+						<dd><a href="# ">凯恩斯</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">暖冬</a></dt>
+						<dd><a href="# ">文昌</a></dd>
+						<dd><a href="# ">厦南靖</a></dd>
+						<dd><a href="# ">涠洲岛</a></dd>
+						<dd><a href="# ">清迈</a></dd>
+					</dl>
+					<dl class="marginTop ">
+						<dt><a href="# ">邮轮</a></dt>
+						<dd><a href="# ">越南</a></dd>
+						<dd><a href="# ">海口</a></dd>
+						<dd><a href="# ">香港</a></dd>
+						<dd><a href="# ">日本</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">趣味节庆</a></dt>
+						<dd><a href="# ">西班牙</a></dd>
+						<dd><a href="# ">印度</a></dd>
+						<dd><a href="# ">泰国</a></dd>
+						<dd><a href="# ">爱尔兰</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">其他体验</a></dt>
+						<dd><a href="# ">阿姆斯特</a></dd>
+						<dd><a href="# ">丹黔东南</a></dd>
+						<dd><a href="# ">加德满都</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt><a href="# ">情侣</a></dt>
+						<dd><a href="# ">希腊</a></dd>
+						<dd><a href="# ">巴黎</a></dd>
+						<dd><a href="# ">马尔代夫</a></dd>
+						<dd><a href="# ">夏威夷</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">毕业生</a></dt>
+						<dd><a href="# ">拉萨</a></dd>
+						<dd><a href="# ">尼泊尔</a></dd>
+						<dd><a href="# ">杭州</a></dd>
+						<dd><a href="# ">越南</a></dd>
+					</dl>
+					<dl class="marginTop ">
+						<dt><a href="# ">亲子</a></dt>
+						<dd><a href="# ">迪士尼乐园</a></dd>
+						<dd><a href="# ">中华恐龙园</a></dd>
+						<dd><a href="# ">长隆</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">孝亲</a></dt>
+						<dd><a href="# ">三亚</a></dd>
+						<dd><a href="# ">北海</a></dd>
+						<dd><a href="# ">鼓浪屿</a></dd>
+						<dd><a href="# ">青岛</a></dd>
+					</dl>
+					<dl class="marginTop ">
+						<dt><a href="# ">吃货</a></dt>
+						<dd><a href="# ">重庆</a></dd>
+						<dd><a href="# ">台湾</a></dd>
+						<dd><a href="# ">西安</a></dd>
+						<dd><a href="# ">意大利</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">背包客</a></dt>
+						<dd><a href="# ">印尼</a></dd>
+						<dd><a href="# ">越南</a></dd>
+						<dd><a href="# ">墨脱</a></dd>
+						<dd><a href="# ">尼泊尔</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">探险家</a></dt>
+						<dd><a href="# ">雅鲁藏布大峡谷</a></dd>
+						<dd><a href="# ">罗布泊</a></dd>
+						<dd><a href="# ">南极洲</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">摄影咖林</a></dt>
+						<dd><a href="# ">哈尼梯田</a></dd>
+						<dd><a href="# ">额济纳胡杨</a></dd>
+						<dd><a href="# ">斯里兰卡</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl>
+						<dt><a href="# ">元旦</a></dt>
+						<dd><a href="# ">香港</a></dd>
+						<dd><a href="# ">泰国</a></dd>
+						<dd><a href="# ">厦门</a></dd>
+						<dd><a href="# ">马来西亚</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">春节</a></dt>
+						<dd><a href="# ">北京</a></dd>
+						<dd><a href="# ">三亚</a></dd>
+						<dd><a href="# ">北海/a></dd>
+						<dd><a href="# ">哈尔滨</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">五一</a></dt>
+						<dd><a href="# ">桂林</a></dd>
+						<dd><a href="# ">西安</a></dd>
+						<dd><a href="# ">泰山</a></dd>
+						<dd><a href="# ">杭州</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">七夕</a></dt>
+						<dd><a href="# ">西湖</a></dd>
+						<dd><a href="# ">天河山</a></dd>
+						<dd><a href="# ">巴黎</a></dd>
+						<dd><a href="# ">布拉格</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">吃货</a></dt>
+						<dd><a href="# ">重庆</a></dd>
+						<dd><a href="# ">台湾</a></dd>
+						<dd><a href="# ">西安</a></dd>
+						<dd><a href="# ">意大利</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">中秋</a></dt>
+						<dd><a href="# ">卢沟桥</a></dd>
+						<dd><a href="# ">黄山</a></dd>
+						<dd><a href="# ">洞庭湖</a></dd>
+						<dd><a href="# ">峨眉山</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">端午</a></dt>
+						<dd><a href="# ">嘉兴</a></dd>
+						<dd><a href="# ">凤凰</a></dd>
+						<dd><a href="# ">岳阳</a></dd>
+						<dd><a href="# ">顺德</a></dd>
+					</dl>
+					<dl>
+						<dt><a href="# ">国庆</a></dt>
+						<dd><a href="# ">拉萨</a></dd>
+						<dd><a href="# ">喀纳斯湖</a></dd>
+						<dd><a href="# ">稻城亚丁</a></dd>
+						<dd><a href="# ">普吉岛</a></dd>
+					</dl>
+				</li>
+				<li>
+					<dl >
+						<dt><a href="# ">丝绸之路</a></dt>
+						<dd><a href="# ">函谷关</a></dd>
+						<dd><a href="# ">大明宫遗址</a></dd>
+						<dd><a href="# ">玉门关</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">茶马古道</a></dt>
+						<dd><a href="# ">剑川</a></dd>
+						<dd><a href="# ">独克宗古城</a></dd>
+						<dd><a href="# ">束河古镇</a></dd>
+						<dd><a href="# ">喜洲</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">重走长征</a></dt>
+						<dd><a href="# ">瑞金</a></dd>
+						<dd><a href="# ">井冈山</a></dd>
+						<dd><a href="# ">遵义</a></dd>
+						<dd><a href="# ">延安</a></dd>
+					</dl>
+					<dl >
+						<dt><a href="# ">唐蕃古道</a></dt>
+						<dd><a href="# ">西安</a></dd>
+						<dd><a href="# ">天水</a></dd>
+						<dd><a href="# ">玉树</a></dd>
+						<dd><a href="# ">那曲</a></dd>
+					</dl>
+				</li>
+			</ul>
+		</div>
+		</div>
+		<!--侧边导航栏结束-->
+		
+		<!--3d翻转效果开始-->
+		<div class="jq22-container">
+			<div class="describe ">
+				<i>Explore wild world</i>
+				<h5>淡淡 寻访山水之间</h5>
+			</div>
+		<div class="jq22-content">
+		<div class="flip-3d">
+		  <figure>
+		    <img src="img/luguhu.jpg" alt="">
+		    <figcaption>泸沽湖</figcaption>
+			</figure>
+		</div>
+		  
+		<div class="flip-3d">
+		  <figure>
+		    <img src="img/hangzhou.jpg" alt="">
+		    <figcaption>绍兴</figcaption>
+		  </figure>
+		</div>
+		<div class="flip-3d">
+		  <figure>
+		    <img src="img/daxidi.jpg" alt="">
+		    <figcaption>大溪地</figcaption>
+		  </figure>
+		</div>
+		</div>
+		
+	</div>
+		<!--3d翻转效果结束-->
+		
+		
+		
+		<!--九宫格图片展示区域开始-->
+		<div class="jiugongge ">
+			<div class="describe ">
+				<i>世界很大，给不安分的心一个躁动的理由</i>
+				<h5>跟随兴趣去旅行，全年随时出发</h5>
+			</div>
+			<ul>
+				<li>
+					<img src="img/nine1.jpg "  class="nine "/> 
+					<a href="# ">带着孩子去旅行</a>
+					<img  src="img/nine1-1.jpg "  class="right "/>
+					<img  src="img/nine1-2.jpg "  class="rightR "/>
+					<img  src="img/nine1-5.jpg "  class="rightRR "/>
+					<img  src="img/nine1-3.jpg "  class="bottom "/>
+					<img  src="img/nine1-4.jpg "  class="bottomR "/>
+				</li>
+				<li>
+					<img  src="img/nine2.jpg "    class="nine "/> 
+					<a href="# ">全球最震撼人心的地质奇观</a>
+					<img  src="img/nine2-1.jpg "  class="left "/>
+					<img  src="img/nine2-2.jpg "  class="right "/>
+					<img  src="img/nine2-5.jpg "  class="rightR "/>
+					<img  src="img/nine2-3.jpg "  class="bottom "/>
+					<img  src="img/nine2-4.jpg "  class="bottomR "/>
+				</li>
+				<li>
+					<img  src="img/nine3.jpg "    class="nine "/> 
+					<a href="# ">摄影咖们爱“秀”的地方</a>
+					<img  src="img/23.jpg "  class="left "/>
+					<img  src="img/29.jpg "  class="leftR "/>
+					<img  src="img/7.jpg "  class="right "/>
+					<img  src="img/34.jpg "  class="bottom "/>
+					<img  src="img/42.jpg "  class="bottomR "/>
+				</li>
+				<li>
+					<img  src="img/nine4.jpg "    class="nine "/> 
+					<a href="# ">探秘求知，来一次文化之旅</a>
+					<img  src="img/nine4-1.jpg "  class="left "/>
+					<img  src="img/nine4-2.jpg "  class="leftR "/>
+					<img  src="img/nine4-3.jpg "  class="leftRR "/>
+					<img  src="img/nine4-4.jpg "  class="bottom "/>
+					<img  src="img/nine4-5.jpg "  class="bottomR "/>
+				</li>
+				<li>
+					<img  src="img/nine5.jpg "    class="nine "/> 
+					<a href="# ">最具特色的住宿体验</a>
+					<img  src="img/nine5-1.jpg "  class="top "/>
+					<img  src="img/nine5-2.jpg "  class="right "/>
+					<img  src="img/nine5-3.jpg "  class="rightR "/>
+					<img  src="img/nine5-4.jpg "  class="rightRR "/>
+					<img  src="img/nine5-5.jpg "  class="bottom "/>
+				</li>
+				<li>
+					<img  src="img/nine6.jpg "    class="nine "/> 
+					<a href="# ">它们是本地人最炫耀的名片</a>
+					<img  src="img/nine6-1.jpg "  class="top "/>
+					<img  src="img/nine6-2.jpg "  class="left "/>
+					<img  src="img/nine6-3.jpg "  class="right "/>
+					<img  src="img/nine6-4.jpg "  class="rightR "/>
+					<img  src="img/nine6-5.jpg "  class="bottom "/>
+				</li>
+				<li>
+					<img  src="img/nine7.jpg "    class="nine "/> 
+					<a href="# ">它们都是最美乡村</a>
+					<img  src="img/nine7-1.jpg "  class="top "/>
+					<img  src="img/nine7-2.jpg "  class="left "/>
+					<img  src="img/nine7-3.jpg "  class="leftR "/>
+					<img  src="img/nine7-4.jpg "  class="right "/>
+					<img  src="img/nine7-5.jpg "  class="bottom "/>
+					
+				</li>
+				<li>
+					<img  src="img/nine8.jpg "    class="nine "/> 
+					<a href="# ">共享各地浓郁民俗风情</a>
+					<img  src="img/nine8-1.jpg "  class="top "/>
+					<img  src="img/nine8-2.jpg "  class="left "/>
+					<img  src="img/nine8-3.jpg "  class="leftR "/>
+					<img  src="img/nine8-4.jpg "  class="leftRR "/>
+					<img  src="img/nine8-5.jpg "  class="bottom "/>
+				</li>
+				<li>
+					<img  src="img/nine9.jpg "   class="nine "/> 
+					<a href="# ">在博物馆里见证文明变迁</a>
+					<img  src="img/nine9-1.jpg "  class="top "/>
+					<img  src="img/nine9-2.jpg "  class="topR "/>
+					<img  src="img/nine9-3.jpg "  class="right "/>
+					<img  src="img/nine9-4.jpg "  class="rightR "/>
+					<img  src="img/nine9-5.jpg "  class="rightRR "/>
+				</li>
+				<li>
+					<img  src="img/nine10.jpg "   class="nine "/> 
+					<a href="# ">网罗世界最好的购物体验</a>
+					<img  src="img/nine10-1.jpg "  class="top "/>
+					<img  src="img/nine10-2.jpg "  class="topR "/>
+					<img  src="img/nine10-3.jpg "  class="left "/>
+					<img  src="img/nine10-4.jpg "  class="right "/>
+					<img  src="img/nine10-5.jpg "  class="rightR "/>
+				</li>
+				<li>
+					<img  src="img/nine11.jpg "   class="nine "/> 
+					<a href="# ">吃货世界，满满的饕餮美食</a>
+					<img  src="img/nine11-1.jpg "  class="top "/>
+					<img  src="img/nine11-2.jpg "  class="topR "/>
+					<img  src="img/nine11-3.jpg "  class="left "/>
+					<img  src="img/nine11-4.jpg "  class="leftR "/>
+					<img  src="img/nine11-5.jpg "  class="right "/>
+					
+				</li>
+				<li>
+					<img  src="img/nine12.jpg "   class="nine "/> 
+					<a href="# ">体味别样城市风情</a>
+					<img  src="img/nine12-1.jpg "  class="top "/>
+					<img  src="img/nine12-2.jpg "  class="topR "/>
+					<img  src="img/nine12-3.jpg "  class="left "/>
+					<img  src="img/nine12-4.jpg "  class="leftR "/>
+					<img  src="img/nine12-5.jpg "  class="leftRR "/>
+				</li>
+			</ul>
+			
+		</div>
+		
+		
+		
+		
+		<!--九宫格图片展示区域结束-->
+		
+		<!--折叠效果开始-->
+	<div class="zhedie">
+		<div class="describe ">
+				<i>没有什么可以阻挡你接受这沿途的馈赠</i>
+				<h5>世界很大，我想出去走走</h5>
+			</div>
+			</div>	
+		
+		
+	<main class="cd-main">
+  <ul class="cd-gallery">
+    <li class="cd-item">
+      <a href="item-1.html">
+        <div>
+          <h2>穿越探险胜地 够胆你就来当中国“贝爷”</h2>
+          <p>经典的探险之地仍然最具诱惑力。神秘莫测的古代文明</p>
+          <b>点击查阅更多</b>
+        </div>
+      </a>
+    </li>
+  
+    <li class="cd-item">
+       <a href="item-2.html">
+        <div>
+        <h2>世界新旧地标 见证经典与惊喜</h2>
+		<p>地标代表的不仅是建筑本身，更是一种生活方式，一种新思潮的体验。</p>
+		<b>点击查阅更多</b>
+        </div>
+      </a>
+    </li>
+     <li class="cd-item">
+       <a href="item-3.html">
+        <div>
+         <h2>上帝之手的杰作 那些诡异嶙峋的地质奇观</h2>
+		<p>我们生活的地球，其实有很多奇特的面貌让我们去发掘</p>
+		<b>点击查阅更多</b>
+        </div>
+      </a>
+    </li>
+     <li class="cd-item">
+       <a href="item-4.html">
+        <div>
+        <h2>想在岩壁上“跳芭蕾” 我来告诉你哪些攀岩地最棒</h2>
+		<p>“我不在岩壁上，就在去岩壁的路上”</p>
+		<b>点击查阅更多</b>
+        </div>
+      </a>
+    </li>
+  
+    <!-- additional list items here -->
+  </ul> <!-- .cd-gallery -->
+</main> <!-- .cd-main -->
+  
+<div class="cd-folding-panel">
+   
+  <div class="fold-left"></div> <!-- this is the left fold -->
+   
+  <div class="fold-right"></div> <!-- this is the right fold -->
+   
+  <div class="cd-fold-content">
+    <!-- content will be loaded using javascript -->
+  </div>
+  
+  <a class="cd-close" href="#0"></a>
+</div> <!-- .cd-folding-panel -->    
+		<!--折叠效果结束-->
+		
+		<!--底部开始-->
+		<div class="idx-footer-bg">
+			<div class="idx-footer clearfix">
+				<div class="fl">
+					<dl>
+						<dt>关于我们</dt>
+						<dd><a href="#" target="_blank" title="一路有你介绍">一路有你介绍</a></dd>
+						<dd><a href="http://corp.lotour.com/job_2.shtml" target="_blank" onclick="return FocusCount('tail','102');" title="招贤纳士">招贤纳士</a></dd>
+						<dd><a href="http://corp.lotour.com/lotour_honour.shtml" target="_blank" onclick="return FocusCount('tail','103');" title="网站荣誉">网站荣誉</a></dd>
+						<dd><a href="http://corp.lotour.com/contact.shtml" target="_blank" onclick="return FocusCount('tail','104');" title="联系我们">联系我们</a></dd>
+					</dl>
+					<dl>
+						<dt>商家服务</dt>
+						<dd><a href="#" target="_blank" title="一路有你营销" onclick="return FocusCount('tail','201');">一路有你营销</a></dd>
+						<dd><a href="http://member.lotour.com/" target="_blank" title="商家登录" onclick="return FocusCount('tail','202');">商家登录</a></dd>
+					</dl>
+					<dl>
+						<dt>新手上路</dt>
+						<dd><a href="#" target="_blank" title="预订帮助" onclick="return FocusCount('tail','301');">预订帮助</a></dd>
+						<dd><a href="http://corp.lotour.com/term.shtml" target="_blank" title="服务条款" onclick="return FocusCount('tail','302');">服务条款</a></dd>
+						<dd><a href="http://corp.lotour.com/copyright.shtml" target="_blank" title="版权声明" onclick="return FocusCount('tail','303');">版权声明</a></dd>
+					</dl>
+					<div class="hb">
+						<section>合作伙伴</section>
+						<p> <a href="http://www.cnta.com/" target="_blank" title="国家旅游局" onclick="return FocusCount('tail','401');">国家旅游局</a> <a href="http://travel.people.com.cn/" target="_blank" title="人民网旅游">人民网旅游</a><br>
+							<a href="http://travel.gmw.cn/index.htm" target="_blank" title="光明网旅游" onclick="return FocusCount('tail','403');">光明网旅游</a> <a href="http://travel.cntv.cn/" target="_blank" title="央视网旅游" onclick="return FocusCount('tail','404');">央视网旅游</a> <a href="http://travel.chinadaily.com.cn/"
+								target="_blank" title="中国日报网" onclick="return FocusCount('tail','405');">中国日报网</a><br>
+							<a href="http://corp.lotour.com/parter.shtml" target="_blank" class="all" onclick="return FocusCount('tail','406');">[全部]</a> </p>
+					</div>
+				</div>
+				<div class="fr">
+					<div class="wechat">
+						<section>用微信收藏灵感</section>
+						<img src="img/wechat.png" width="95"></div>
+					<div class="follow">
+						<section>关注我们</section>
+						<ul>
+							<li class="sina">
+								<a href="http://weibo.com/lotour2005" title="进入新浪微博" target="_blank" onclick="return FocusCount('attention','01');"></a>
+							</li>
+							<li class="qzone">
+								<a title="进入QQ空间" target="_blank" href="http://user.qzone.qq.com/1726116704" onclick="return FocusCount('attention','02');"></a>
+							</li>
+							<li class="renren">
+								<a title="进入人人网" target="_blank" href="http://www.renren.com/600754913" onclick="return FocusCount('attention','03');"></a>
+							</li>
+							<li class="qqweibo">
+								<a title="进入腾讯微博" target="_blank" href="http://t.qq.com/lotourly" onclick="return FocusCount('attention','04');"></a>
+							</li>
+							<li class="wechat">
+								<a href="javascript:void(0)"></a><img></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</div>
+		<!--底部结束-->
+		
+    </body>
+</html>
+<script src="js/jquery-1.12.3.min.js "></script>
+<script src="js/jquery.vector-map.js " type="text/javascript "></script>
+<script src="js/china-zh.js " type="text/javascript "></script>
+<script src="js/new_file.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/zhedie.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/zhediemain.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/prefixfree.min.js" type="text/javascript" charset="utf-8"></script>

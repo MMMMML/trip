@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>一路有你旅游网 有你才精彩 </title>
+		<link rel="shortcut icon" href="img/smalllogo.jpg" />
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="css/default.css"/>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/look.css"/>
+		<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.parallax.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<main>
+      <div id="overlay"></div>
+      <ul id="scene">
+        <li class="layer" data-depth="0.1">
+          <div class="layer1"></div>
+        </li>
+        <li class="layer" data-depth="0.2">
+          <div class="layer2"></div>
+        </li>
+      </ul>
+      <div class="wrapper">
+      	<div class="describe">
+				<i>Go,hold every moment of your life</i>
+				<h5>有你的旅途 别样精彩</h5>
+			</div>
+      	<div class="lg-layer re-layer re-layer-a" id="lg-layer">
+		<div class="in">
+			<form action="index.html">
+			<p class="ps psshow" id="msg_psshow" style=""></p>
+			<p class="ty"><input class="txt tl" placeholder="您的姓名" value="" type="text" name="username" id="username" ></p>
+			<p class="ty"><input class="txt tl" placeholder="您的用户名" value="" type="text" name="txtname" id="txtname" ></p>
+			<p class="ty"><input class="txt tl" placeholder="您的身份证号码" value="" type="text" name="personnum" id="personnum" ></p>
+			<p class="ty"><input class="txt tl" placeholder="您的邮箱" value="" type="text" name="txtemail" id="txtemail" ></p>
+			<p class="ty"><input class="txt tl" placeholder="您的密码" value="" type="password" name="txtpassword" id="txtpassword" ><img src="img/sps.png" class="sps"></p>
+			<ol class="ty"><li>低</li><li>中</li><li>高</li></ol>
+			<p class="ty"><input class="txt tl" placeholder="您的手机号码" value="" type="text" name="phonenum" id="phonenum" ></p>
+			<p class="ty"><input class="txt ck" placeholder="短信验证码" value="" type="text" name="vcode" id="ecode" ><button id="resent" class="resent"  disabled="disabled">获取验证码</button></p>
+			<p class="sub"><input value="完成注册" type="submit" id="regbutton" name="regbutton" ></p>
+			<p class="tk">注册视为同意一路有你旅游网<a href="#" target="_blank">服务条款</a></p>
+			</form>
+		</div>
+	</div>
+      	
+      	
+      	
+      	
+      </div>
+    </main>
+	</body>
+</html>
+<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.parallax.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/new_file.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+	    $('#scene').parallax();
+	});
+</script>

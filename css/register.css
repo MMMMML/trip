@@ -1,0 +1,19 @@
+.describe i{font: italic 18px/50px \5FAE\8F6F\96C5\9ED1,"Microsoft YaHei";color: white;}
+.describe h5{font: italic 36px/50px \5FAE\8F6F\96C5\9ED1,"Microsoft YaHei";color: white;}
+.lg-layer {width: 340px;background: rgba(255,255,255,0.3)!important;background: #fff;border-radius: 5px;box-shadow: 5px 5px 5px rgba(0,0,0,0.3);z-index: 99999;position: absolute;top: 130px;}
+.re-layer-a .in {padding-top: 15px;}
+.re-layer .in { padding: 10px 30px 0px;background: none;}
+.lg-layer .in .ps { height: 20px; margin-bottom: 8px;}
+.ps {padding-left: 20px;font: 14px/20px \5FAE\8F6F\96C5\9ED1;color: #EA3417;}
+.lg-layer .in .ty {margin-bottom: 10px;position: relative;overflow: hidden;}
+.lg-layer .in .tl {width: 250px;}
+.lg-layer .in .txt {padding: 7px 15px;font: 14px/20px \5FAE\8F6F\96C5\9ED1;color: #999;border-radius: 5px;border: 1px solid #d7d7d7;background: #fff;}
+.lg-layer .sps {position: absolute;right: 22px;top: 11px;cursor: pointer;}
+.re-layer .in .ck {width: 107px;float: left;margin-left: 13px;}
+#resent {width: 129px;height: 36px;display: block;float: right;border: 1px solid #2BD2A9; border-radius: 5px; cursor: pointer;background: white; color:#2BD2A9 ;margin-right: 13px;}
+.lg-layer .in .sub input {display: block;width: 280px;border: 1px solid #27C1BA;height: 34px;font: 20px/34px \5FAE\8F6F\96C5\9ED1;color: #27C1BA;text-align: center;background: #fff;border-radius: 5px;cursor: pointer;}
+.lg-layer .tk {font: 12px/20px \5b8b\4f53;color: #7e7d7d;}
+.lg-layer .tk a {color: #333333;text-decoration: underline;}
+.lg-layer .in .blue{background: #2BD2A9;}
+.lg-layer .in ol{margin-left: 13px;margin-bottom: 10px;}
+.lg-layer .in  ol li{float: left;width: 70px;height: 20px;line-height: 20px;margin-right: 19px;border-radius: 5px;border: 1px solid #2BD2A9;color: #FFFFFF;}
